@@ -1,4 +1,24 @@
+/*ALL*/
+body {
+    padding: 10px 0px;
+}
 
+/*HEADER*/
+header {
+    background-color: beige;
+    padding-top: 50px;
+}
+
+nav li{
+    display: inline;
+}
+
+nav #contact {
+    float: right;
+    margin-right: 50px;
+}
+
+/*BANNER*/
 .banner {
     background-image: url(../images/banner.jpg);
     background-repeat: no-repeat;
@@ -9,3 +29,87 @@
     z-index: 1;
 }
 
+
+
+/*CONTENT 
+.content {}
+
+section {}
+
+.reference {}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+p {}
+
+li {} */
+
+
+/*OVERVIEW 
+#overview {}
+
+#overview-container {}
+
+#study-focus-text {}
+
+#overview-container img{} */
+
+
+/*ABSTRACT 
+#abstract {} */
+
+
+/*LOCATION 
+#location {}
+
+#big-location {}
+
+#large-map-image {}
+
+#medium-location {}
+
+#med-map-image {} */
+
+
+/*BACKGROUND-HISTORY 
+#background {}
+
+#tectonics {}
+
+.oldest-time {}
+
+.medium-late-time {}
+
+#mlt-text {}
+
+#mlt-image {} */
+
+
+/*BACKGROUND-SUITES 
+#intrusive-suites {}
+
+#suite-examples {}
+
+.suites {}
+
+#tuolumne {}
+
+#whitney {}
+
+#sahwave {} */
+
+
+/*FOOTER 
+footer {}
+
+footer a {}
+
+footer li {}
+
+#contact-foot {} */
