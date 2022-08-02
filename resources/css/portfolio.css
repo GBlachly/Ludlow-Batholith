@@ -1,16 +1,51 @@
 /*ALL*/
-body {
-    padding: 10px 0px;
+html {
+    font-size: 16px;
 }
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Helvetica, sans-serif; 
+}
+
 
 /*HEADER*/
 header {
-    background-color: beige;
-    padding-top: 50px;
+    background-color: sandybrown;
+    margin-bottom: 0;
+    border: solid black 2px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 1.75rem;
 }
 
 nav li{
     display: inline;
+    padding-right: 1rem;
+    font-size: 1.25rem;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: gray;
+    cursor: pointer;
+}
+
+nav a:active {
+    color: white;
 }
 
 nav #contact {
@@ -23,20 +58,42 @@ nav #contact {
     background-image: url(../images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-top: 0;
+    padding-top: 100px;
 }
 
 .title-card {
+    font-size: .75rem;
+    text-align: center;
     z-index: 1;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(230, 163, 121, .9);
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 10px black;
+}
+
+.title-card p {
+    font-size: 1rem;
+    text-align: center;
 }
 
 
-
-/*CONTENT 
+/*CONTENT*/ 
 .content {}
 
 section {}
 
 .reference {}
+
+img {
+    width: 25%;
+    height: auto;
+}
 
 h1 {}
 
@@ -48,24 +105,44 @@ h4 {}
 
 p {}
 
-li {} */
+li {}
 
 
-/*OVERVIEW 
+/*OVERVIEW*/ 
 #overview {}
 
-#overview-container {}
+#overview-container {
+    display: flex;
+    justify-content: space-between;
+}
 
-#study-focus-text {}
+#study-focus-text {
+    border: 2px solid black;
+    background-color: sandybrown;
+    margin: 0 1rem;
+    padding: 2rem .25rem;
+    line-height: 2rem;
+    flex-shrink: 4;
+    min-width: 200px;
+}
 
-#overview-container img{} */
+#study-focus-text p {
+    font-size: 1.125rem;
+}
+
+#overview-container img{
+    min-width: 400px;
+    width: 35%;
+    height: auto;
+    flex-shrink: 1;
+}
 
 
-/*ABSTRACT 
-#abstract {} */
+/*ABSTRACT*/
+#abstract {}
 
 
-/*LOCATION 
+/*LOCATION*/
 #location {}
 
 #big-location {}
@@ -74,10 +151,10 @@ li {} */
 
 #medium-location {}
 
-#med-map-image {} */
+#med-map-image {}
 
 
-/*BACKGROUND-HISTORY 
+/*BACKGROUND-HISTORY*/
 #background {}
 
 #tectonics {}
@@ -88,28 +165,77 @@ li {} */
 
 #mlt-text {}
 
-#mlt-image {} */
+#mlt-image {}
 
 
-/*BACKGROUND-SUITES 
+/*BACKGROUND-SUITES*/ 
 #intrusive-suites {}
 
-#suite-examples {}
+.suite-examples {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
-.suites {}
+.suites {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.suites img{
+    width: 50%;
+    height: auto;
+}
 
 #tuolumne {}
 
 #whitney {}
 
-#sahwave {} */
+#sahwave {} 
 
 
-/*FOOTER 
-footer {}
+/*FOOTER*/ 
+footer {
+   border-top: 2px solid black;
+   display: flex;
+   justify-content: center;
+   align-content: flex-start;
+   padding: 1rem 0px;
+   background-color: peru;
+   margin-bottom: 0;
+   margin-top: 10px;
+}
 
-footer a {}
+footer img {
+    width: 100px;
+    height: auto;
+}
 
-footer li {}
+footer #foot-list {
+    text-align: center;
+    padding-left: 450px;
+    padding-right: 450px; 
+}
 
-#contact-foot {} */
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+    cursor: pointer;
+}
+
+footer a:active {
+    color: white;
+}
+
+#contact-foot {}
