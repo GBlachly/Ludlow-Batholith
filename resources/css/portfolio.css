@@ -106,6 +106,9 @@ h3 {}
 
 h4 {}
 
+#cp-main {
+    min-height: 350px;
+}
 
 /*OVERVIEW*/ 
 #overview h2{
