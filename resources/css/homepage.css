@@ -1,4 +1,4 @@
-/*ALL*/
+/*ALL                    ALL                 ALL                     ALL*/
 html {
     font-size: 16px;
 }
@@ -8,8 +8,28 @@ body {
     font-family: 'Times New Roman', Helvetica, sans-serif; 
 }
 
+h1 {font-size: 30px;}
 
-/*HEADER*/
+h2 {
+    margin-left: 2%;
+}
+
+h3 {margin-left: 5%;}
+
+h4 {}
+
+.reference {
+    text-align: center;
+    font-size: .6rem;
+    margin-top: 0;
+}
+
+img {
+    border: solid gray 2px;
+}
+
+
+/*ALL HEADER*/
 header {
     background-color: sandybrown;
     margin-bottom: 0;
@@ -53,7 +73,61 @@ nav #contact {
     margin-right: 50px;
 }
 
-/*BANNER*/
+
+/*ALL FOOTER*/ 
+footer {
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding: 1rem 0px;
+    background-color: peru;
+    margin-bottom: 0;
+    margin-top: 10px;
+ }
+ 
+ footer img {
+     width: 100px;
+     height: auto;
+     border-color: black;
+     margin-left: 50px;
+ }
+ 
+ footer #foot-list {
+     text-align: center;
+     position: relative;
+     right: 20px;
+ }
+ 
+ footer a {
+     color: black;
+     text-decoration: none;
+ }
+ 
+ footer a:visited {
+     color: black;
+     text-decoration: underline;
+     text-decoration-color: black;
+ }
+ 
+ footer a:hover {
+     text-decoration: underline;
+     text-decoration-color: black;
+     cursor: pointer;
+ }
+ 
+ footer a:active {
+     color: white;
+ }
+ 
+ #contact-foot {
+     margin-right: 50px;
+ }
+
+
+/*HOMEPAGE                          HOMEPAGE                        HOMEPAGE                 HOMEPAGE*/
+
+/*HOMEPAGE BANNER*/
 .banner {
     background-image: url(../images/banner.jpg);
     background-repeat: no-repeat;
@@ -83,36 +157,10 @@ nav #contact {
 }
 
 
-/*CONTENT*/ 
-.content {}
-
-section {}
-
-.reference {
-    text-align: center;
-    font-size: .6rem;
-    margin-top: 0;
-}
-
-img {
-    border: solid gray 2px;
-}
-
-h1 {}
-
-h2 {}
-
-h3 {}
-
-h4 {}
-
-#cp-main {
-    min-height: 350px;
-}
-
-/*OVERVIEW*/ 
-#overview h2{
+/*HOMEPAGE OVERVIEW*/ 
+#overview h1{
     margin-left: 2%;
+    
 }
 
 #overview p{
@@ -155,7 +203,8 @@ h4 {}
     margin-right: 2%;
 }
 
-/*ABSTRACT*/
+
+/*HOMEPAGE ABSTRACT*/
 #abstract h2{
     margin-left: 2%;
 }
@@ -165,7 +214,7 @@ h4 {}
 }
 
 
-/*LOCATION*/
+/*HOMEPAGE LOCATION*/
 #location h2{
     margin-left: 2%;
 }
@@ -212,8 +261,7 @@ h4 {}
 }
 
 
-
-/*BACKGROUND-HISTORY*/
+/*HOMEPAGE BACKGROUND-HISTORY*/
 #background {
     display: block;
     clear: right;
@@ -238,7 +286,6 @@ h4 {}
 }
 
 #ot-image img {
-    
     width: 60%;
     height: auto;
 }
@@ -273,7 +320,7 @@ h4 {}
 }
 
 
-/*BACKGROUND-SUITES*/ 
+/*HOMEPAGE BACKGROUND-SUITES*/ 
 #intrusive-suites {
     text-align: center;
 }
@@ -311,60 +358,7 @@ h4 {}
 #sahwave {} 
 
 
-/*FOOTER*/ 
-footer {
-   border-top: 2px solid black;
-   display: flex;
-   justify-content: space-between;
-   align-content: flex-start;
-   padding: 1rem 0px;
-   background-color: peru;
-   margin-bottom: 0;
-   margin-top: 10px;
-}
-
-footer img {
-    width: 100px;
-    height: auto;
-    border-color: black;
-    margin-left: 50px;
-}
-
-footer #foot-list {
-    text-align: center;
-    /*padding-left: 450px;
-    padding-right: 450px; */
-    position: relative;
-    right: 20px;
-}
-
-footer a {
-    color: black;
-    text-decoration: none;
-}
-
-footer a:visited {
-    color: black;
-    text-decoration: underline;
-    text-decoration-color: black;
-}
-
-footer a:hover {
-    text-decoration: underline;
-    text-decoration-color: black;
-    cursor: pointer;
-}
-
-footer a:active {
-    color: white;
-}
-
-#contact-foot {
-    margin-right: 50px;
-}
-
-
-/*MEDIA*/
+/*HOMEPAGE MEDIA*/
 @media only screen and (max-width: 1024px) {
     #big-location {
         display: block;
@@ -378,4 +372,22 @@ footer a:active {
         margin: 0 auto;
         float: none;
     }
+}
+
+
+/*METHODS PAGE                 METHODS  PAGE               METHODS  PAGE                METHODS  PAGE*/
+
+#mtd-main {}
+
+
+/*RESULTS PAGE                  RESULTS PAGE               RESULTS PAGE                 RESULTS PAGE*/
+
+#rs-main {}
+
+
+/*CONTACT PAGE                  CONTACT PAGE               CONTACT PAGE                 CONTACT PAGE*/
+
+#cp-main {
+    margin-top: 3%;
+    min-height: 305px;
 }
