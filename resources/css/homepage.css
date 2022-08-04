@@ -1,4 +1,4 @@
-/*ALL                    ALL                 ALL                     ALL*/
+/*ALL                    ALL                 ALL                     ALL*/ 
 html {
     font-size: 16px;
 }
@@ -16,10 +16,6 @@ h1 {
 h2 {
     margin-left: 2%;
 }
-
-h3 {}
-
-h4 {}
 
 .reference {
     text-align: center;
@@ -41,12 +37,16 @@ header {
     background-color: sandybrown;
     margin-bottom: 0;
     border: solid black 2px;
-    z-index: 100;
 }
 
 header h1 {
     text-align: center;
     font-size: 1.75rem;
+}
+
+.nav-left {
+    position: relative;
+    right: 20px;
 }
 
 nav li{
@@ -79,6 +79,18 @@ nav a:active {
 nav #contact {
     float: right;
     margin-right: 50px;
+}
+
+/* ALL HEADER MEDIA */
+@media only screen and (max-width: 768px) {
+    .nav-left {
+        position: static;
+    }
+    
+    nav #contact {
+        float: none;
+        margin-right: 0px;
+    }
 }
 
 
@@ -256,7 +268,6 @@ footer {
     text-align: center;
     width: 45%;
     height: auto;
-    float: right;
     margin-right: 50px;
 }
 
@@ -279,9 +290,9 @@ footer {
     clear: right;
 }
 
-#background h2{
+#background h2 {
     margin-left: 2%;
- }
+}
 
 #tectonics {
     text-align: center;
@@ -392,8 +403,6 @@ footer {
 
 /*METHODS PAGE                 METHODS  PAGE               METHODS  PAGE                METHODS  PAGE*/
 
-#mtd-main {}
-
 #mtd-questions h3 {
     margin-left: 5%;
     margin-right: 5%;
@@ -429,18 +438,150 @@ footer {
 }
 
 
+/*GEOLOGIC MAP PAGE        GEOLOGIC MAP PAGE             GEOLOGIC MAP PAGE         GEOLOGIC MAP PAGE */
+
+/* GEOLOGIC MAP MAP*/
+#geo-map-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#geo-map {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    margin-left: 5%;
+}
+
+#geo-key {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+}
+
+/* GEOLOGIC MAP UNIT BUTTONS*/
+#unit-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.button {
+    box-sizing: border-box;
+    width: 15%;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#kbw-button {
+    background-color: #452511;
+    color: white;
+}
+
+#kbw-button:hover{
+    text-decoration-color: white;
+}
+
+#kbw-button:active{
+    background-color: black;
+}
+
+#ker-button {
+    background-color: #693C1F;
+    color: white;
+}
+
+#ker-button:hover{
+    text-decoration-color: white;
+}
+
+#ker-button:active{
+    background-color: black;
+}
+
+#kbt-button {
+    background-color: #A5704F;
+    color: lightgray;
+}
+
+#kbt-button:hover{
+    text-decoration-color: lightgray;
+}
+
+#kbt-button:active{
+    background-color: gray;
+}
+
+#krd-button {
+    background-color: #E2CABA;
+    color: black;
+}
+
+#krd-button:hover{
+    text-decoration-color: black;
+}
+
+#krd-button:active{
+    background-color: white;
+}
+
+#kpb-button {
+    background-color: #FCD3B5;
+    color: black;
+}
+
+#kpb-button:hover{
+    text-decoration-color: black;
+}
+
+#kpb-button:active{
+    background-color: white;
+}
+
+/* GEOLOGIC MAP ROCK UNITS*/
+.unit-des {
+    text-align: center;
+}
+
+.unit-des img {
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    vertical-align: middle;
+}
+
+#kbw-des {
+    display: none;
+}
+
+#ker-des {
+    display: none;
+}
+
+#kbt-des {
+    display: none;
+}
+
+#krd-des {
+    display: none;
+}
+
+#kpb-des {
+    display: none;
+}
+
+
 /*RESULTS PAGE                  RESULTS PAGE               RESULTS PAGE                 RESULTS PAGE*/
-
-/*#sidebar {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    left: 0;
-    top: 100px;
-    background-color: lightgray;
-} */
-
-#rs-main {}
 
 
 /*CONTACT PAGE                  CONTACT PAGE               CONTACT PAGE                 CONTACT PAGE*/
