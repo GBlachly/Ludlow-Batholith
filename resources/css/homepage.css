@@ -296,7 +296,6 @@ footer {
 /*HOMEPAGE BACKGROUND-HISTORY*/
 #background {
     display: block;
-    clear: right;
 }
 
 #background h2 {
@@ -313,7 +312,6 @@ footer {
 }
 
 #ot-image {
-    display: inline-block;
     width: 45%;
 }
 
@@ -323,9 +321,7 @@ footer {
 }
 
 #ot-text {
-    display: inline-block;
     width: 45%;
-    padding-top: 100px
 }
 
 .medium-late-time {
@@ -335,7 +331,6 @@ footer {
 #mlt-text {
     display: inline-block;
     width: 45%;
-    padding-top: 100px;
     padding-left: 5%;
 }
 
@@ -355,6 +350,11 @@ footer {
 /*HOMEPAGE BACKGROUND-SUITES*/ 
 #intrusive-suites {
     text-align: center;
+}
+
+#intrusive-suites p {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #intrusive-suites ul{
@@ -436,7 +436,7 @@ footer {
 #zircon-cl p{
     text-align: initial;
     text-indent: 40px;
-    width: 85%;
+    width: 80%;
     margin-left: 5%;
 }
 
@@ -590,9 +590,19 @@ footer {
 
 
 /*RESULTS PAGE                  RESULTS PAGE               RESULTS PAGE                 RESULTS PAGE*/
+#rs-main p {
+    margin-left: 5%; 
+    margin-right: 5%;
+}
+
 #rs-recon {}
 
 #rs-geochron {}
+
+#rs-geochron ul {
+    margin-left: 7%;
+    margin-right: 7%;
+}
 
 #rs-major-ele {}
 
