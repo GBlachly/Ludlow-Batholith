@@ -32,6 +32,10 @@ hr {
     margin: 30px auto;
 }
 
+.bottom-spacing-div {
+    margin: 5% 0;
+}
+
 /*ALL HEADER*/
 header {
     background-color: sandybrown;
@@ -283,6 +287,11 @@ footer {
     margin-left: auto;
 }
 
+/*HOMEPAGE RESEARCH QUESTIONS*/
+#research-questions h3 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 /*HOMEPAGE BACKGROUND-HISTORY*/
 #background {
@@ -375,9 +384,9 @@ footer {
     border: none;
 }
 
-#tuolumne {}
+/* #tuolumne {}
 
-#whitney {}
+#whitney {} */ 
 
 #sahwave img{
     width: 90%;
@@ -402,8 +411,7 @@ footer {
 
 
 /*METHODS PAGE                 METHODS  PAGE               METHODS  PAGE                METHODS  PAGE*/
-
-#mtd-questions h3 {
+#mtd-mapping p {
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -582,6 +590,25 @@ footer {
 
 
 /*RESULTS PAGE                  RESULTS PAGE               RESULTS PAGE                 RESULTS PAGE*/
+#rs-recon {}
+
+#rs-geochron {}
+
+#rs-major-ele {}
+
+#rs-trace-ele {}
+
+
+/*DISCUSSION PAGE               DISCUSSION PAGE            DISCUSSION PAGE              DISCUSSION PAGE*/
+#dis-intrusion {}
+
+#dis-defining-lb {}
+
+#dis-rapid-melt {}
+
+#dis-slab-tear {}
+
+#dis-tear-model {}
 
 
 /*CONTACT PAGE                  CONTACT PAGE               CONTACT PAGE                 CONTACT PAGE*/
