@@ -13,6 +13,10 @@ h1 {
     font-size: 30px;
 }
 
+main h1 {
+    margin-left: 2%;
+}
+
 h2 {
     margin-left: 2%;
 }
@@ -87,8 +91,12 @@ nav #contact {
 
 /* ALL HEADER MEDIA */
 @media only screen and (max-width: 768px) {
+    nav ul {
+        text-align: center;
+    }
+    
     .nav-left {
-        position: static;
+        position: static;;
     }
     
     nav #contact {
@@ -158,10 +166,10 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 300px;
+    min-height: 300px;
     margin-top: 0;
-    padding-top: 100px;
-    
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .title-card {
@@ -416,28 +424,9 @@ footer {
     margin-right: 5%;
 }
 
-#shrimp-img {
-    text-align: center;
-}
-
-#zircon-cl {
-    margin-bottom: 10px;
-}
-
-#zircon-cl img{
-    float: left;
-    height: 400px;
-    width: auto;
+#mtd-geochron p {
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 5%;
-}
-
-#zircon-cl p{
-    text-align: initial;
-    text-indent: 40px;
-    width: 80%;
-    margin-left: 5%;
 }
 
 #mtd-geochem p {
@@ -610,11 +599,19 @@ footer {
 
 
 /*DISCUSSION PAGE               DISCUSSION PAGE            DISCUSSION PAGE              DISCUSSION PAGE*/
+#dis-main h3 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#dis-main p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 #dis-intrusion {}
 
 #dis-defining-lb {}
-
-#dis-rapid-melt {}
 
 #dis-slab-tear {}
 
