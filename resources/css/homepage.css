@@ -40,6 +40,7 @@ hr {
     margin: 5% 0;
 }
 
+
 /*ALL HEADER*/
 header {
     background-color: sandybrown;
@@ -89,14 +90,20 @@ nav #contact {
     margin-right: 50px;
 }
 
-/* ALL HEADER MEDIA */
 @media only screen and (max-width: 768px) {
     nav ul {
-        text-align: center;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    nav li {
+        font-size: 1rem;
+        padding-right: 0px;
     }
     
     .nav-left {
-        position: static;;
+        position: static;
     }
     
     nav #contact {
@@ -257,10 +264,10 @@ footer {
 
 #big-location {
     display: inline-block;
-    text-align: center;
     width: 45%;
-    height: auto;
-    margin-left: 50px;
+    margin-left: 3.5%;
+    text-align: center;
+    vertical-align: top;
 }
 
 #large-map-image img {
@@ -269,18 +276,16 @@ footer {
 }
 
 #big-location p {
-    width: 92%;
-    height: auto;
-    margin-right: auto;
+    width: 93%;
     margin-left: auto;
+    margin-right: auto;
 }
 
 #medium-location {
-    display: inline-block;
-    text-align: center;
+    float: right;
     width: 45%;
-    height: auto;
-    margin-right: 50px;
+    margin-right: 5%;
+    text-align: center;
 }
 
 #med-map-image img {
@@ -289,11 +294,28 @@ footer {
 }
 
 #medium-location p {
-    width: 98%;
-    height: auto;
-    margin-right: auto;
+    width: 93%;
     margin-left: auto;
+    margin-right: auto;
 }
+
+@media only screen and (max-width: 1024px) {
+    #big-location {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    #medium-location {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 60%;
+        float: none;
+    }
+}
+
 
 /*HOMEPAGE RESEARCH QUESTIONS*/
 #research-questions h3 {
@@ -301,56 +323,60 @@ footer {
     margin-right: 5%;
 }
 
-/*HOMEPAGE BACKGROUND-HISTORY*/
-#background {
-    display: block;
-}
 
+/*HOMEPAGE BACKGROUND-TECTONICS*/
 #background h2 {
     margin-left: 2%;
 }
 
-#tectonics {
+#tectonics h3{
     text-align: center;
 }
 
 .oldest-time {
-    display: flex;
+    display: block;
     margin-bottom: 50px;
 }
 
 #ot-image {
-    width: 45%;
+    width: 30%;
+    min-width: 250px;
+    float: left;
+    margin-left: 5%;
+    margin-right: 2%;
 }
 
 #ot-image img {
-    width: 60%;
+    width: 100%;
     height: auto;
 }
 
 #ot-text {
-    width: 45%;
+    text-align: justify;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .medium-late-time {
-    display: flex;
+    display: block;
+    margin-bottom: 50px;
 }
 
 #mlt-text {
-    display: inline-block;
-    width: 45%;
-    padding-left: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
 }
 
 #mlt-image {
-    display: inline-block;
-    width: 45%;
-    text-align: center;
-    padding-left: 75px;
+    float: right;
+    width: 30%;
+    min-width: 250px;
+    margin-left: 2%;
 }
 
 #mlt-image img {
-    width: 350px;
+    width: 100%;
     height: auto;
 }
 
@@ -392,30 +418,9 @@ footer {
     border: none;
 }
 
-/* #tuolumne {}
-
-#whitney {} */ 
-
 #sahwave img{
     width: 90%;
 } 
-
-
-/*HOMEPAGE MEDIA*/
-@media only screen and (max-width: 1024px) {
-    #big-location {
-        display: block;
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    #medium-location {
-        display: block;
-        text-align: center;
-        margin: 0 auto;
-        float: none;
-    }
-}
 
 
 /*METHODS PAGE                 METHODS  PAGE               METHODS  PAGE                METHODS  PAGE*/
@@ -456,6 +461,7 @@ footer {
     width: 30%;
     height: auto;
 }
+
 
 /* GEOLOGIC MAP UNIT BUTTONS*/
 #unit-buttons {
@@ -544,6 +550,7 @@ footer {
 #kpb-button:active{
     background-color: white;
 }
+
 
 /* GEOLOGIC MAP ROCK UNITS*/
 .unit-des {
