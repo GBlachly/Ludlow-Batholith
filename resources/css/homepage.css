@@ -591,6 +591,12 @@ footer {
     display: none;
 }
 
+@media only screen and (max-width: 1024px){
+    #kbw-des img {
+        width: 70%;
+        height: auto;
+    }
+}
 
 /*RESULTS PAGE                  RESULTS PAGE               RESULTS PAGE                 RESULTS PAGE*/
 #rs-main p {
