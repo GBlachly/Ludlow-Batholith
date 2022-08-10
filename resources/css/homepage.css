@@ -202,7 +202,6 @@ footer {
 /*HOMEPAGE OVERVIEW*/ 
 #overview h1{
     margin-left: 2%;
-    
 }
 
 #overview p{
@@ -210,21 +209,30 @@ footer {
     margin-right: 5%;
 }
 
-#overview-container {
+#overview-img-container {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
-    height: 300px;
+}
+
+#overview-img-container img {
+    max-height: 300px;
+    width: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 20px;
 }
 
 #study-focus-text {
     border: 2px solid black;
     background-color: sandybrown;
-    margin-left: 10px;
-    margin-right: 10px; 
-    max-height: 90%;
-    min-width: 140px;
-    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 60%;
+    height: auto;
+    padding: 10px 0;
+    text-align: justify;
 }
 
 #study-focus-text p {
@@ -233,17 +241,15 @@ footer {
     margin-bottom: 0.25rem;
 }
 
-#overview-container img{
-    height: 90%;
-    width: auto;
+#study-focus-text ul {
+    list-style: none;
 }
 
-#ov-img-1 {
-    margin-left: 2%;
-}
-
-#ov-img-2 {
-    margin-right: 2%;
+@media only screen and (max-width: 1024px) {
+    #overview-img-container img {
+        height: auto;
+        width: 60%;
+    }
 }
 
 
@@ -561,6 +567,7 @@ footer {
     display: inline-block;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 20px;
     vertical-align: middle;
 }
 
@@ -591,18 +598,18 @@ footer {
     margin-right: 5%;
 }
 
-#rs-recon {}
+/* #rs-recon {}
 
-#rs-geochron {}
+#rs-geochron {} */
 
 #rs-geochron ul {
     margin-left: 7%;
     margin-right: 7%;
 }
 
-#rs-major-ele {}
+/* #rs-major-ele {}
 
-#rs-trace-ele {}
+#rs-trace-ele {} */
 
 
 /*DISCUSSION PAGE               DISCUSSION PAGE            DISCUSSION PAGE              DISCUSSION PAGE*/
@@ -616,13 +623,13 @@ footer {
     margin-right: 5%;
 }
 
-#dis-intrusion {}
+/* #dis-intrusion {}
 
 #dis-defining-lb {}
 
 #dis-slab-tear {}
 
-#dis-tear-model {}
+#dis-tear-model {} */
 
 
 /*CONTACT PAGE                  CONTACT PAGE               CONTACT PAGE                 CONTACT PAGE*/
